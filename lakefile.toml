@@ -1,0 +1,10 @@
+name = "LeanCDCL"
+version = "0.1.0"
+defaultTargets = ["leancdcl"]
+
+[[lean_lib]]
+name = "LeanCDCL"
+
+[[lean_exe]]
+name = "leancdcl"
+root = "Main"
